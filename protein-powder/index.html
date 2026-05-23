@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protein Powder — Browse &amp; Compare | ProteinPrice</title>
+  <meta name="description" content="Browse 300+ protein powders from top brands including whey, casein, plant-based, and more. Live prices from major retailers launching soon.">
+  <link rel="canonical" href="https://proteinprice.com/protein-powder/">
+  <meta property="og:title" content="Protein Powder — Browse &amp; Compare | ProteinPrice">
+  <meta property="og:description" content="Browse 300+ protein powders from top brands. Live prices launching soon.">
+  <meta property="og:url" content="https://proteinprice.com/protein-powder/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ProteinPrice">
+  <meta name="theme-color" content="#16A34A">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="ps-body ps-has-tabbar">
+
+  <a class="ps-skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Announcement Bar -->
+  <div class="ps-announce" role="banner">
+    <div class="ps-announce__inner">
+      <span>Something big is on the way. Live prices from top retailers launching soon.</span>
+      <a href="/alerts/">Set an alert</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="ps-header" role="banner">
+    <div class="ps-header__inner">
+      <a href="/" class="ps-logo" aria-label="ProteinPrice home">
+        <div class="ps-logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+        </div>
+        <span class="ps-logo__text">Protein<span>Price</span></span>
+      </a>
+      <div class="ps-header__search">
+        <form class="ps-header__search-form" data-ps-search-form role="search" aria-label="Search products">
+          <input type="search" class="ps-header__search-input" placeholder="Search protein powders..." aria-label="Search products">
+          <button type="submit" class="ps-header__search-btn" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+        </form>
+      </div>
+      <nav class="ps-header__nav" aria-label="Main navigation">
+        <a href="/protein-powder/" data-ps-nav-link class="ps-active">Powder</a>
+        <a href="/protein-bars/" data-ps-nav-link>Bars</a>
+        <a href="/protein-drinks/" data-ps-nav-link>Drinks</a>
+        <a href="/about/" data-ps-nav-link>About</a>
+        <a href="/alerts/" class="ps-header__nav-cta" data-ps-nav-link>Set Alert</a>
+      </nav>
+      <div class="ps-header__mobile-actions">
+        <a href="/search/" class="ps-icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </a>
+        <a href="/alerts/" class="ps-icon-btn" aria-label="Set a price alert">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Page Hero -->
+    <section class="ps-page-hero" aria-labelledby="page-heading">
+      <div class="ps-container">
+        <nav class="ps-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span class="ps-breadcrumb__sep" aria-hidden="true">/</span>
+          <span class="ps-breadcrumb__current" aria-current="page">Protein Powder</span>
+        </nav>
+        <h1 id="page-heading">Protein Powder</h1>
+        <p class="ps-category-lede">Browse 300+ protein powders from the top brands. Whey, casein, plant-based, and more. Live prices coming soon.</p>
+      </div>
+    </section>
+
+    <!-- Filters + Products -->
+    <section class="ps-section" aria-labelledby="products-heading">
+      <div class="ps-container">
+        <h2 class="ps-sr-only" id="products-heading">All Protein Powders</h2>
+
+        <!-- Filter pills (visual only) -->
+        <div class="ps-filter-pills" role="list" aria-label="Filter by type">
+          <button class="ps-filter-pill ps-active" role="listitem" type="button">All</button>
+          <button class="ps-filter-pill" role="listitem" type="button">Whey Protein</button>
+          <button class="ps-filter-pill" role="listitem" type="button">Casein</button>
+          <button class="ps-filter-pill" role="listitem" type="button">Plant-Based</button>
+          <button class="ps-filter-pill" role="listitem" type="button">Egg White</button>
+          <button class="ps-filter-pill" role="listitem" type="button">Blends</button>
+          <button class="ps-filter-pill" role="listitem" type="button">Mass Gainer</button>
+        </div>
+
+        <div class="ps-product-grid" id="ps-category-grid" data-category="protein-powder" aria-live="polite" aria-label="Protein powder products">
+          <!-- Loaded by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- You might also like -->
+    <div class="ps-also-like">
+      <div class="ps-container">
+        <h2>You might also like</h2>
+        <div class="ps-also-like-links">
+          <a href="/protein-bars/" class="ps-btn ps-btn--ghost">Protein Bars</a>
+          <a href="/protein-drinks/" class="ps-btn ps-btn--ghost">Protein Drinks</a>
+          <a href="/search/" class="ps-btn ps-btn--ghost">Search all products</a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="ps-footer" role="contentinfo">
+    <div class="ps-container">
+      <div class="ps-footer__grid">
+        <div class="ps-footer__brand">
+          <a href="/" class="ps-footer__logo" aria-label="ProteinPrice home">
+            <div class="ps-footer__logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="#fff"/></svg>
+            </div>
+            <span class="ps-footer__logo-text">ProteinPrice</span>
+          </a>
+          <p class="ps-footer__blurb">Your free resource for browsing protein products and comparing prices. Live prices launching soon.</p>
+        </div>
+        <div class="ps-footer__col">
+          <h4>Browse</h4>
+          <nav class="ps-footer__links">
+            <a href="/protein-powder/">Protein Powder</a>
+            <a href="/protein-bars/">Protein Bars</a>
+            <a href="/protein-drinks/">Protein Drinks</a>
+            <a href="/search/">Search all</a>
+          </nav>
+        </div>
+        <div class="ps-footer__col">
+          <h4>Company</h4>
+          <nav class="ps-footer__links">
+            <a href="/about/">About</a>
+            <a href="/alerts/">Price Alerts</a>
+          </nav>
+        </div>
+        <div class="ps-footer__col">
+          <h4>Legal</h4>
+          <nav class="ps-footer__links">
+            <a href="/about/#privacy">Privacy Policy</a>
+            <a href="/about/#terms">Terms of Use</a>
+            <a href="/about/#affiliate">Affiliate Disclosure</a>
+          </nav>
+        </div>
+      </div>
+      <div class="ps-footer__bottom">
+        <p class="ps-footer__copyright">&copy; 2025 ProteinPrice. All rights reserved.</p>
+        <div class="ps-footer__legal">
+          <a href="/about/#privacy">Privacy</a>
+          <a href="/about/#terms">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Tab Bar -->
+  <nav class="ps-tabbar" aria-label="Main navigation">
+    <a href="/" class="ps-tabbar__item" data-ps-tab aria-label="Home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="/protein-powder/" class="ps-tabbar__item ps-active" data-ps-tab aria-label="Browse" aria-current="page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Browse</span>
+    </a>
+    <a href="/search/" class="ps-tabbar__item" data-ps-tab aria-label="Search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>Search</span>
+    </a>
+    <a href="/alerts/" class="ps-tabbar__item" data-ps-tab aria-label="Price alerts">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+      <span>Alerts</span>
+    </a>
+    <a href="/about/" class="ps-tabbar__item" data-ps-tab aria-label="About">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span>About</span>
+    </a>
+  </nav>
+
+  <script type="module" src="../js/app.js"></script>
+</body>
+</html>

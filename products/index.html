@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product | ProteinPrice</title>
+  <meta name="description" content="Browse protein product details and compare prices across retailers. Live prices launching soon.">
+  <link rel="canonical" href="https://proteinprice.com/products/">
+  <meta property="og:title" content="Product | ProteinPrice">
+  <meta property="og:site_name" content="ProteinPrice">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#16A34A">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="ps-body ps-has-tabbar">
+
+  <a class="ps-skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Announcement Bar -->
+  <div class="ps-announce" role="banner">
+    <div class="ps-announce__inner">
+      <span>Something big is on the way. Live prices from top retailers launching soon.</span>
+      <a href="/alerts/">Set an alert</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="ps-header" role="banner">
+    <div class="ps-header__inner">
+      <a href="/" class="ps-logo" aria-label="ProteinPrice home">
+        <div class="ps-logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+        </div>
+        <span class="ps-logo__text">Protein<span>Price</span></span>
+      </a>
+      <div class="ps-header__search">
+        <form class="ps-header__search-form" data-ps-search-form role="search" aria-label="Search products">
+          <input type="search" class="ps-header__search-input" placeholder="Search products..." aria-label="Search products">
+          <button type="submit" class="ps-header__search-btn" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+        </form>
+      </div>
+      <nav class="ps-header__nav" aria-label="Main navigation">
+        <a href="/protein-powder/" data-ps-nav-link>Powder</a>
+        <a href="/protein-bars/" data-ps-nav-link>Bars</a>
+        <a href="/protein-drinks/" data-ps-nav-link>Drinks</a>
+        <a href="/about/" data-ps-nav-link>About</a>
+        <a href="/alerts/" class="ps-header__nav-cta" data-ps-nav-link>Set Alert</a>
+      </nav>
+      <div class="ps-header__mobile-actions">
+        <a href="/search/" class="ps-icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </a>
+        <a href="/alerts/" class="ps-icon-btn" aria-label="Set a price alert">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Breadcrumb + product heading — populated by JS -->
+    <section class="ps-page-hero" id="ps-product-hero" aria-labelledby="product-heading">
+      <div class="ps-container">
+        <nav class="ps-breadcrumb" id="ps-product-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span class="ps-breadcrumb__sep" aria-hidden="true">/</span>
+          <span class="ps-breadcrumb__current" aria-current="page">Product</span>
+        </nav>
+        <h1 id="product-heading" class="ps-product-title">Loading&hellip;</h1>
+        <p id="ps-product-brand" class="ps-product-brand"></p>
+      </div>
+    </section>
+
+    <!-- Product Detail -->
+    <section class="ps-section" aria-label="Product details">
+      <div class="ps-container">
+        <div class="ps-product-detail" id="ps-product-detail">
+
+          <!-- Image -->
+          <div class="ps-product-detail__img-wrap">
+            <div id="ps-product-img" class="ps-product-detail__img-placeholder" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div class="ps-product-detail__info">
+            <div id="ps-product-meta" class="ps-product-detail__meta">
+              <!-- Populated by JS -->
+            </div>
+
+            <!-- Price coming soon -->
+            <div class="ps-product-detail__prices">
+              <div class="ps-prices-coming-soon">
+                <div class="ps-prices-coming-soon__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <strong>Live prices coming soon</strong>
+                  <p>We're connecting with retailers now. Set an alert to be notified the moment prices go live.</p>
+                </div>
+              </div>
+              <a href="/alerts/" class="ps-btn ps-btn--primary">Set a price alert</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Nutrition (populated by JS if available) -->
+    <section class="ps-section ps-section--alt ps-section--border-top" id="ps-nutrition-section" aria-labelledby="nutrition-heading" hidden>
+      <div class="ps-container">
+        <h2 id="nutrition-heading">Nutrition info</h2>
+        <div id="ps-nutrition-grid" class="ps-nutrition-grid"></div>
+      </div>
+    </section>
+
+    <!-- Related products -->
+    <section class="ps-section ps-section--border-top" aria-labelledby="related-heading">
+      <div class="ps-container">
+        <div class="ps-section-head">
+          <div class="ps-section-head__titles">
+            <h2 id="related-heading">More products</h2>
+          </div>
+          <a id="ps-related-all-link" href="/search/" class="ps-section-head__link">Browse all &rarr;</a>
+        </div>
+        <div class="ps-product-grid" id="ps-related-grid" aria-live="polite" aria-label="Related products"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="ps-footer" role="contentinfo">
+    <div class="ps-container">
+      <div class="ps-footer__grid">
+        <div class="ps-footer__brand">
+          <a href="/" class="ps-footer__logo" aria-label="ProteinPrice home">
+            <div class="ps-footer__logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="#fff"/></svg>
+            </div>
+            <span class="ps-footer__logo-text">ProteinPrice</span>
+          </a>
+          <p class="ps-footer__blurb">Your free resource for browsing protein products and comparing prices. Live prices launching soon.</p>
+        </div>
+        <div class="ps-footer__col">
+          <h4>Browse</h4>
+          <nav class="ps-footer__links">
+            <a href="/protein-powder/">Protein Powder</a>
+            <a href="/protein-bars/">Protein Bars</a>
+            <a href="/protein-drinks/">Protein Drinks</a>
+            <a href="/search/">Search all</a>
+          </nav>
+        </div>
+        <div class="ps-footer__col">
+          <h4>Company</h4>
+          <nav class="ps-footer__links">
+            <a href="/about/">About</a>
+            <a href="/alerts/">Price Alerts</a>
+          </nav>
+        </div>
+        <div class="ps-footer__col">
+          <h4>Legal</h4>
+          <nav class="ps-footer__links">
+            <a href="/privacy/">Privacy Policy</a>
+            <a href="/terms/">Terms of Use</a>
+            <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
+          </nav>
+        </div>
+      </div>
+      <div class="ps-footer__bottom">
+        <p class="ps-footer__copyright">&copy; 2025 ProteinPrice. All rights reserved.</p>
+        <div class="ps-footer__legal">
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/affiliate-disclosure/">Disclosure</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Tab Bar -->
+  <nav class="ps-tabbar" aria-label="Main navigation">
+    <a href="/" class="ps-tabbar__item" data-ps-tab aria-label="Home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="/protein-powder/" class="ps-tabbar__item" data-ps-tab aria-label="Browse">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Browse</span>
+    </a>
+    <a href="/search/" class="ps-tabbar__item" data-ps-tab aria-label="Search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>Search</span>
+    </a>
+    <a href="/alerts/" class="ps-tabbar__item" data-ps-tab aria-label="Price alerts">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+      <span>Alerts</span>
+    </a>
+    <a href="/about/" class="ps-tabbar__item" data-ps-tab aria-label="About">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span>About</span>
+    </a>
+  </nav>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
